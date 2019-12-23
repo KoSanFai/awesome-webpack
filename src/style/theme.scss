@@ -1,0 +1,23 @@
+$black: cyan;
+
+body {
+  background: url('../assets/vida.jpg');
+  background-size: cover;
+  div {
+    width: 60px;
+    height: 60px;
+    &.empty {
+      background: url('../assets/empty.png') no-repeat contain;
+    }
+    &.avatar {
+      background: url('../assets/avatar.png') no-repeat contain;
+    }
+  }
+}
+
+body {
+  h1 {
+    color: $black;
+    transform: scale(2.5);
+  }
+}
